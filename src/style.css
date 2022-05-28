@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@500&family=Poppins:wght@300&family=Raleway&family=Rubik+Glitch&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px 300px;
+    max-width: fit-content;
+    min-width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    /* min-width: 600px; */
+}
+
+.nav {
+    height: 80px; 
+    display: flex; 
+    padding: 10px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    /* max-width: 100px; */
+    /* padding: 8px 8.65px 16px 0px;  */
+    /* top: 22px;
+    left: 30px;
+    bottom: 22.65px;*/
+}
+
+section {
+    align-items: center;
+    padding: 30px 20px 30px;
+
+}
+
+.hero-photo {
+    align-items: center;
+    width: 620px;
+}
+
+.hero-header {
+    font-size: 50px;
+    margin: 0px;
+    padding: 24px 0px 0px 0px;
+    /* padding: 24px 0px 0px 0px; */
+    text-align: start;
+}
+
+.hero-text {
+   /* padding: 0px 90px; */
+   text-align: start;
+}
+
+.card {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.rating {
+    display: flex;
+    align-items: flex-start;
+}
+
+.star {
+    margin-top: 3px;
+    padding-right: 3px;
+}
+
+.grey {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #918E9B;
+    margin-left: 2px;
+}
+
+.dot {
+    background: #918E9B;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 4px;
+}
+
+.price {
+    margin-top: 4px;
+}
+
+.bold-price {
+    font-weight: 600;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 9px;
+}
