@@ -3,22 +3,30 @@ import './style.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Card from './components/Card';
+import data from './data';
 
 function App(props) {
+  const cardElements = data.map(item => {
+    return (
+        <Card 
+              key = {item.id}
+              {...item}
+          />
+    )
+  })
+
+
   return (
     <div className="App">
       <Header />
-      {/* <Hero /> */}
-      <Card 
-        img = "swim.png"
-        rating = {5.8}
-        reviewCount = {6}
-        country = "USA"
-        title = "Life lessons with Katie Zaferes"
-        price = {136}
-      />
+      <Hero />
+      <section className='card-list'>
+        {cardElements}
+      </section>
     </div>
   );
 }
 
 export default App;
+
+
